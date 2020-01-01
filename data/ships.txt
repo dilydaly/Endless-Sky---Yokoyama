@@ -1,0 +1,51 @@
+ship "Yokoyama Mk.I"
+	sprite "ship/Yokoyama MkI"
+	thumbnail "thumbnail/Yokoyama MkI"
+	attributes
+		category "Interceptor"
+		"cost" 3371000
+		"shields" 0
+		"hull" 100
+		"required crew" 1
+		"bunks" 2
+		"mass" 50
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1100
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+
+		"Yokoyama Blaster"
+
+		
+		"Yokoyama Quarter Generator"
+		"D-cell Batteries x 4"
+		
+		
+		"Yoko Thrust"
+		"Yoko Steer"
+		"Scram Drive"
+		
+	engine 12.5 31.5
+	engine -12.5 31.5
+	gun 0 -34.5
+	gun 18.5 -10.5
+	gun -18.5 -10.5
+	gun -33 3.5
+	gun 33 3.5
+	
+	leak "flame" 60 80
+	explode "tiny explosion" 20
+	explode "small explosion" 5
+	description "A concept created late in the 20th century. Recently, an old and nostalgic engineer has started bringing these designs to life."
+	description "An old starfighter design, from the early days of human space activities. Has 5 gun bays and ample engine space, however it comes pre-configured to be a game changer."
+	description "It takes a pilot of exceptional skill with a craving for challenge to fly this ship. Come back when you've gained some experience."
+	description "(and credits)."

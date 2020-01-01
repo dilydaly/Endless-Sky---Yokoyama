@@ -1,0 +1,21 @@
+outfit "Yokoyama Blaster"
+	category "Guns"
+	cost 0
+	thumbnail "thumbnail/Yokoyama MkI"
+	"mass" 20
+	"outfit space" -200000
+	"weapon capacity" -200000
+	"gun ports" -5
+	weapon
+		sprite "projectile/yokoyamaprojectile"
+		sound "yokoyamablaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0
+		"velocity" 16.625
+		"lifetime" 96
+		"reload" 20
+		"firing energy" 500
+		"firing heat" 30
+		"shield damage" 100000
+		"hull damage" 600000
+	description "An ancient weapon from humanities early days in space. Make your shots count."
