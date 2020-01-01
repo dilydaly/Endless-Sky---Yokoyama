@@ -4,7 +4,7 @@ outfit "Yokoyama Quarter Generator"
 	thumbnail "thumbnail/Yokoyama MkI"
 	"mass" 30
 	"outfit space" -300000
-	"energy generation" 6
+	"energy generation" 8
 	"heat generation" 2.9
 	description "The power source for the Mk.I is a spinning disc contained within an ancient rectangular box."
 	
