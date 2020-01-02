@@ -42,13 +42,14 @@ ship "Yokoyama Mk.I"
 	gun -33 3.5
 	gun 33 3.5
 	
-	
+	"swizzle" 0
 	explode "Yokoyama_death"
 	
 	description "A concept created late in the 20th century. Recently, an old and nostalgic engineer has started bringing these designs to life."
 	description "An old starfighter design, from the early days of human space activities. Has 5 gun bays and ample engine space, however it comes pre-configured to be a game changer."
 	description "It takes a pilot of exceptional skill with a craving for challenge to fly this ship. Come back when you've gained some experience."
 	description "(and credits)."
+	description "[Gyaraga] is inscribed under the cockpit maintence pannel."
 	
 	
 	
@@ -111,8 +112,98 @@ ship "Yokoyama Mk.II"
 	
 
 	
-	
+	"swizzle" 0
 	explode "Yokoyama_death" 2
 	description "A concept created late in the 20th century. Recently, an old and nostalgic engineer has started bringing these designs to life."
 	description "You might think that this is just 2 Yokoyama Mk.I stuck together."
 	description "You would be right."
+	
+	
+	
+	
+ship "Yokoyama Model C"
+	sprite "ship/Yokoyama Model C"
+		"frame rate" 1
+	thumbnail "thumbnail/Yokoyama Model C"
+	attributes
+		category "Interceptor"
+		"cost" 3371000
+		"shields" 0
+		"hull" 1500
+		"required crew" 1
+		"bunks" 26
+		"mass" 125
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1100
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 80
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+
+		"Yokoyama Capture Beam"
+
+		
+		"Yokoyama Quarter Generator"
+		"D-cell Batteries x 4"
+		
+		
+		"Yoko Thrust"
+		"Yoko Steer"
+		"Scram Drive"
+		
+
+	gun 0 -60
+	drone 0 -60
+	drone 0 -60
+	
+	"swizzle" 0
+	explode "Yokoyama_death"
+	
+	description "PLACEHOLDER TEXT FOR CAPTURE SHIP"
+
+
+ship "Yokoyama Drone"
+	sprite "ship/bee"
+		"frame rate" 1
+	thumbnail "thumbnail/bee"
+	attributes
+		category "Drone"
+		"cost" 83000
+		"hull" 100
+		"automaton" 1
+		"mass" 20
+		"drag" .59
+		"heat dissipation" .9
+		"outfit space" 58
+		"weapon capacity" 8
+		"engine capacity" 28
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Yokoyama Enemy Blaster"
+		
+		"Yokoyama Quarter Generator"
+		"D-cell Batteries x 4"
+		
+		
+		"Yoko Thrust"
+		"Yoko Steer"
+		
+
+	gun 0 -26 "Yokoyama Enemy Blaster"
+	
+	"swizzle" 0
+	explode "Yokoyama_death"
+	description "Yokoyama Drones are assigned in pairs to Model C motherships. They are faster and more lethal than you."
+
+

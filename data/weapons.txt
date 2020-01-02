@@ -19,6 +19,29 @@ outfit "Yokoyama Blaster"
 		"shield damage" 100000
 		"hull damage" 600000
 	description "An ancient weapon from humanities early days in space. Make your shots count."
+	
+
+outfit "Yokoyama Enemy Blaster"
+	category "Guns"
+	cost 0
+	thumbnail "thumbnail/bee"
+	"mass" 20
+	"outfit space" -200000
+	"weapon capacity" -200000
+	"gun ports" -5
+	weapon
+		sprite "projectile/yokoyamaenemyprojectile"
+		sound "yokoyamablaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 0
+		"velocity" 16.625
+		"lifetime" 96
+		"reload" 20
+		"firing energy" 500
+		"firing heat" 30
+		"shield damage" 100000
+		"hull damage" 600000
+	description "Blaster for Bee Drones"
 
 
 outfit "Yokoyama Blaster MkII"
@@ -78,6 +101,29 @@ outfit "Yokoyama Blaster MkIII"
 		"missile strength" 696969
 	description "Heavy Rockets are the most powerful missile weapon available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
 
+
+
+outfit "Yokoyama Capture Beam"
+	category "Guns"
+	cost 0
+	thumbnail "thumbnail/Yokoyama Model C"
+	"mass" 20
+	"outfit space" -200000
+	"weapon capacity" -200000
+	"gun ports" -5
+	weapon
+		sprite "projectile/Yokoyama Capture Beam"
+			"frame rate" 1
+		sound "capturebeam"
+		
+		"inaccuracy" 0
+		"velocity" 60
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 30
+		"heat damage" 500
+	description "Beam used to capture enemy ships."
 
 outfit "Yoko Rocket"
 	category "Ammunition"
