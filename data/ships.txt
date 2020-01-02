@@ -15,7 +15,7 @@ ship "Yokoyama Mk.I"
 		"cargo space" 15
 		"outfit space" 130
 		"weapon capacity" 20
-		"engine capacity" 40
+		"engine capacity" 80
 		weapon
 			"blast radius" 16
 			"shield damage" 160
@@ -42,10 +42,77 @@ ship "Yokoyama Mk.I"
 	gun -33 3.5
 	gun 33 3.5
 	
-	leak "flame" 60 80
-	explode "tiny explosion" 20
-	explode "small explosion" 5
+	
+	explode "Yokoyama_death"
+	
 	description "A concept created late in the 20th century. Recently, an old and nostalgic engineer has started bringing these designs to life."
 	description "An old starfighter design, from the early days of human space activities. Has 5 gun bays and ample engine space, however it comes pre-configured to be a game changer."
 	description "It takes a pilot of exceptional skill with a craving for challenge to fly this ship. Come back when you've gained some experience."
 	description "(and credits)."
+	
+	
+	
+	
+ship "Yokoyama Mk.II"
+	sprite "ship/Yokoyama MkII"
+	thumbnail "thumbnail/Yokoyama MkII"
+	attributes
+		category "Interceptor"
+		"cost" 6742000
+		"shields" 0
+		"hull" 200
+		"required crew" 2
+		"bunks" 4
+		"mass" 100
+		"drag" 1.8
+		"heat dissipation" 1.6
+		"fuel capacity" 2200
+		"cargo space" 30
+		"outfit space" 260
+		"weapon capacity" 40
+		"engine capacity" 160
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+
+		"Yokoyama Blaster" 
+		"Yokoyama Blaster"
+
+		
+		"Yokoyama Quarter Generator"
+		"Yokoyama Quarter Generator"
+		"D-cell Batteries x 4"
+		"D-cell Batteries x 4"
+		
+		
+		"Yoko Thrust"
+		"Yoko Thrust"
+		"Yoko Steer"
+		"Yoko Steer"
+		"Scram Drive"
+		
+	engine -46.5 31.5
+	engine -23.5 31
+	engine 23.5 31
+	engine 46.5 31
+	gun -35 -34.5
+	gun 35 -34.5
+	gun -68 4
+	gun 68 4
+	gun -53.5 -10.5
+	gun 53.5 -10.5
+	gun -16.5 -10.5
+	gun 16.5 -10.5
+	gun -1.5 3.5
+	gun 1.5 3.5
+	
+
+	
+	
+	explode "Yokoyama_death" 2
+	description "A concept created late in the 20th century. Recently, an old and nostalgic engineer has started bringing these designs to life."
+	description "You might think that this is just 2 Yokoyama Mk.I stuck together."
+	description "You would be right."

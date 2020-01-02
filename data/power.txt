@@ -1,6 +1,6 @@
 outfit "Yokoyama Quarter Generator"
 	category "Power"
-	cost 47000
+	cost 0
 	thumbnail "thumbnail/Yokoyama MkI"
 	"mass" 30
 	"outfit space" -300000
@@ -8,10 +8,22 @@ outfit "Yokoyama Quarter Generator"
 	"heat generation" 2.9
 	description "The power source for the Mk.I is a spinning disc contained within an ancient rectangular box."
 	
+	
+	
+outfit "Yokoyama Quarter Generator MkII"
+	category "Power"
+	cost 0
+	thumbnail "thumbnail/Yokoyama MkII"
+	"mass" 60
+	"outfit space" -300000
+	"energy generation" 16
+	"heat generation" 2.9
+	description "The power source for the Mk.II is a faster spinning disc contained within an even more ancient rectangular box."
+	
 
 outfit "D-cell Batteries x 4"
 	category "Power"
-	cost 12000
+	cost 0
 	thumbnail "thumbnail/Yokoyama MkI"
 	"mass" 10
 	"outfit space" -100000
@@ -20,4 +32,11 @@ outfit "D-cell Batteries x 4"
 	
 
 	
-	
+outfit "D-cell Batteries x 8"
+	category "Power"
+	cost 0
+	thumbnail "thumbnail/Yokoyama MkII"
+	"mass" 20
+	"outfit space" -100000
+	"energy capacity" 2000
+	description "These do not last as long as their weight leads you to believe. *Expires 2008*"
