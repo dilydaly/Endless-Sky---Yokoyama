@@ -125,7 +125,7 @@ outfit "Yokoyama Capture Beam"
 		"firing energy" 10
 		"firing heat" 30
 		"heat damage" 500
-		"hit force" -10
+		"hit force" -150
 	description "Beam used to capture enemy ships."
 
 outfit "Yoko Rocket"
