@@ -115,7 +115,7 @@ outfit "Yokoyama Capture Beam"
 	"gun ports" -5
 	weapon
 		sprite "projectile/Yokoyama Capture Beam"
-			"frame rate" 1
+			"frame rate" 2
 		sound "capturebeam"
 		
 		"inaccuracy" 0
@@ -124,7 +124,7 @@ outfit "Yokoyama Capture Beam"
 		"reload" 1
 		"firing energy" 10
 		"firing heat" 30
-		"heat damage" 500
+		"heat damage" 5000
 		"hit force" -150
 	description "Beam used to capture enemy ships."
 
