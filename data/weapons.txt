@@ -12,13 +12,14 @@ outfit "Yokoyama Blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 0
 		"velocity" 16.625
-		"lifetime" 96
+		"lifetime" 696969
 		"reload" 20
 		"firing energy" 500
 		"firing heat" 30
+		"cluster"
 		"shield damage" 100000
 		"hull damage" 600000
-		"cluster"
+
 	description "An ancient weapon from humanities early days in space. Make your shots count."
 	
 
@@ -124,6 +125,7 @@ outfit "Yokoyama Capture Beam"
 		"firing energy" 10
 		"firing heat" 30
 		"heat damage" 500
+		"hit force" -10
 	description "Beam used to capture enemy ships."
 
 outfit "Yoko Rocket"
