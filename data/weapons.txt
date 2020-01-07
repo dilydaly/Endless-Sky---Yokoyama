@@ -18,6 +18,7 @@ outfit "Yokoyama Blaster"
 		"firing heat" 30
 		"shield damage" 100000
 		"hull damage" 600000
+		"cluster"
 	description "An ancient weapon from humanities early days in space. Make your shots count."
 	
 
